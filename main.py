@@ -4,6 +4,7 @@ import traceback  # Hata takibi için eklendi
 from PyQt5.QtWidgets import QApplication, QDialog, QMessageBox, QMainWindow
 from PyQt5.uic import loadUi
 from pymongo import MongoClient
+from datetime import datetime
 
 from alistirma_sayfasi import AlistirmaSayfasi
 
@@ -125,38 +126,55 @@ class KayitSayfasi(QDialog):
         self.btn_register.clicked.connect(self.register_new_user)
 
     def register_new_user(self):
-        username = self.line_reg_username.text()
-        password = self.line_reg_password.text()
-        confirm = self.line_reg_confirm_password.text()
+        # 1. .strip() ile baştaki ve sondaki gereksiz boşlukları siliyoruz
+        username = self.line_reg_username.text().strip()
+        password = self.line_reg_password.text().strip()
+        confirm = self.line_reg_confirm_password.text().strip()
 
+        # Boş alan kontrolü
         if not username or not password:
             QMessageBox.warning(self, "Hata", "Tüm alanları doldurun.")
             return
 
+        # Şifre eşleşme kontrolü
         if password != confirm:
             QMessageBox.warning(self, "Hata", "Şifreler eşleşmiyor.")
             return
 
+        # Veritabanı Bağlantısı
         col, client = get_db_collection("Users")
-
 
         if col is None:
             QMessageBox.critical(self, "Hata", "Veritabanına bağlanılamadı.")
             return
 
-        if col.find_one({"username": username}):
-            QMessageBox.warning(self, "Hata", "Bu kullanıcı adı zaten mevcut.")
+        # --- KRİTİK DÜZELTME BURASI ---
+        # Önce veritabanında bu kullanıcı var mı diye bakıyoruz.
+        # İpucu: Büyük/küçük harf duyarlılığını kaldırmak istersen (Ahmet = ahmet olsun istersen)
+        # sorguyu regex ile yapabiliriz ama şimdilik birebir eşleşme yapalım.
+
+        existing_user = col.find_one({"username": username})
+
+        if existing_user:
+            # Eğer kayıt varsa HATA ver ve işlemi durdur (return)
+            QMessageBox.warning(self, "Hata", "Bu kullanıcı adı zaten alınmış! Lütfen başka bir ad seçin.")
             client.close()
-            return
+            return  # Burası çok önemli, return demezsen kod aşağı inip kaydeder!
+        # ------------------------------
 
-        col.insert_one({
-            "username": username,
-            "password": password
-        })
-
-        client.close()
-        QMessageBox.information(self, "Başarılı", "Kayıt başarıyla tamamlandı!")
-        self.close()
+        # Eğer yukarıdaki if'e girmediyse, kullanıcı yok demektir. Kaydet.
+        try:
+            col.insert_one({
+                "username": username,
+                "password": password,
+                "created_at": str(datetime.now())  # Tarih eklemek iyi olur
+            })
+            QMessageBox.information(self, "Başarılı", "Kayıt başarıyla tamamlandı!")
+            self.close()  # Pencereyi kapat
+        except Exception as e:
+            QMessageBox.critical(self, "Hata", f"Kayıt sırasında bir hata oluştu: {str(e)}")
+        finally:
+            client.close()
 
 class GirisSayfasi(QDialog):
     def __init__(self):
