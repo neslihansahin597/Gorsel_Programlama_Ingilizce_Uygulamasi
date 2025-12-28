@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QComboBox" name="combo_seviye">
+     <item>
+      <property name="text">
+       <string>A1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C1</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_soru">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Soru Etiketi */
+QLabel {
+    font-size: 24pt;
+    font-weight: bold;
+    color: #4834d4;
+    margin-bottom: 20px;
+}</string>
+     </property>
+     <property name="text">
+      <string>SORU</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_A">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>350</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Genel Buton Tasarımı */
+QPushButton {
+    background-color: white;
+    border: 2px solid #6c5ce7;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 14px;
+    color: #2d3436;
+    margin-bottom: 5px;
+}
+
+/* Üzerine gelindiğinde */
+QPushButton:hover {
+    background-color: #f1f2f6;
+}</string>
+     </property>
+     <property name="text">
+      <string>A</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_B">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>350</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Genel Buton Tasarımı */
+QPushButton {
+    background-color: white;
+    border: 2px solid #6c5ce7;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 14px;
+    color: #2d3436;
+    margin-bottom: 5px;
+}
+
+/* Üzerine gelindiğinde */
+QPushButton:hover {
+    background-color: #f1f2f6;
+}</string>
+     </property>
+     <property name="text">
+      <string>B</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_C">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>350</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Genel Buton Tasarımı */
+QPushButton {
+    background-color: white;
+    border: 2px solid #6c5ce7;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 14px;
+    color: #2d3436;
+    margin-bottom: 5px;
+}
+
+/* Üzerine gelindiğinde */
+QPushButton:hover {
+    background-color: #f1f2f6;
+}</string>
+     </property>
+     <property name="text">
+      <string>C</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_D">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>350</width>
+       <height>500</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Genel Buton Tasarımı */
+QPushButton {
+    background-color: white;
+    border: 2px solid #6c5ce7;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 14px;
+    color: #2d3436;
+    margin-bottom: 5px;
+}
+
+/* Üzerine gelindiğinde */
+QPushButton:hover {
+    background-color: #f1f2f6;
+}</string>
+     </property>
+     <property name="text">
+      <string>D</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

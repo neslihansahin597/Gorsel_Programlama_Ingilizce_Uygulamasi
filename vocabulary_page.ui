@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>581</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QListWidget" name="list_vocabulary_sets">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>1</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QListWidget#list_vocabulary_sets {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    color: #334155;
+    padding: 5px;
+}
+QListWidget#list_vocabulary_sets::item:selected {
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    font-weight: bold;
+}</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>5</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTextEdit" name="text_vocabulary_content">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>5</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTextEdit#text_vocabulary_content {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 15px;
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_back">
+        <property name="styleSheet">
+         <string notr="true">/* Geri Dön Butonu Temel Tasarımı */
+QPushButton#btn_back {
+    /* Arka plan: Çok hafif ve temiz bir gri-mavi */
+    background-color: #F8FAFF; 
+    
+    /* Yazı rengi: İndigo/Mavi tonu */
+    color: #6366F1; 
+    
+    /* Kenarlık ayarları */
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+    
+    /* İç boşluk ve yazı tipi */
+    padding: 8px 16px;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Fare üzerine geldiğinde (Hover efekti) */
+QPushButton#btn_back:hover {
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    border: 1px solid #C7D2FE;
+}
+
+/* Tıklandığında (Basılma efekti) */
+QPushButton#btn_back:pressed {
+    background-color: #E0E7FF;
+    /* Hafif içeri çökme hissi için padding ayarı */
+    padding-top: 10px;
+    padding-bottom: 6px;
+}</string>
+        </property>
+        <property name="text">
+         <string>Menüye geri dön</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

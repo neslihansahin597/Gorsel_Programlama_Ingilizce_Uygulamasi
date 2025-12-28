@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>554</width>
+    <height>333</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+    background-color: #fcfcfc; /* Neredeyse beyaz, göz yormayan bir renk */
+    border: 1px solid #dcdde1; /* Çok ince bir dış çerçeve */
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="lbl_soru">
+     <property name="styleSheet">
+      <string notr="true">font-size: 14pt;
+font-weight: bold;
+color: #2c3e50;</string>
+     </property>
+     <property name="text">
+      <string>Hesabınızı silmek istediğinize emin misiniz?</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lbl_uyari">
+     <property name="styleSheet">
+      <string notr="true">font-size: 10pt;
+color: #e74c3c;
+font-style: italic;</string>
+     </property>
+     <property name="text">
+      <string>Bu işlem geri alınamaz!</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_onay_sil">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #c0392b;
+}</string>
+     </property>
+     <property name="text">
+      <string>Onayla</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_iptal">
+     <property name="maximumSize">
+      <size>
+       <width>200</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: #bdc3c7;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #95a5a6;
+}</string>
+     </property>
+     <property name="text">
+      <string>İptal</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

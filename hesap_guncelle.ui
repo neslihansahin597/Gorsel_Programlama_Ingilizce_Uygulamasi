@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>209</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Profil bilgilerini güncelle</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog { background-color: #ffffff; }</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="lbl_baslik">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #2d3436; /* Koyu gri, modern bir ton */
+    font-size: 18px;
+    font-weight: bold;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    margin-bottom: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Profil bilgilerini güncelle</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_yeni_sifre">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit:focus { border: 2px solid #6366F1; }
+QPushButton#btn_kaydet {
+    background-color: #6366F1;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Yeni şifre giriniz</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="line_sifre_tekrar">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit:focus { border: 2px solid #6366F1; }
+QPushButton#btn_kaydet {
+    background-color: #6366F1;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Şifre tekrarı</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_vazgec">
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#btn_vazgec {
+    background-color: #b2bec3;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string>İptal</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_kaydet">
+     <property name="maximumSize">
+      <size>
+       <width>250</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#btn_kaydet {
+    background-color: #6366F1;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Değişiklikleri kaydet</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

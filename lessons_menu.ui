@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>441</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QPushButton" name="btn_grammar">
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Dil Bilgisi Butonu - btn_grammar */
+QPushButton#btn_grammar {
+    /* Arka plan: Yumuşak bir gökyüzü mavisi */
+    background-color: #E0F2FE; 
+    
+    /* Yazı rengi: Derin deniz mavisi (Siyah yerine) */
+    color: #0369A1; 
+    
+    /* Kenarlık: Çok ince ve şeffaf bir mavi hat */
+    border: 1px solid rgba(3, 105, 161, 0.2); 
+    
+    border-radius: 15px;
+    padding: 12px 20px;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Fare üzerine geldiğinde (Hover) */
+QPushButton#btn_grammar:hover {
+    /* Renk biraz daha canlanır */
+    background-color: #BAE6FD;
+    color: #0284C7;
+    border: 1px solid #7DD3FC;
+}
+
+/* Tıklandığında (Basılma efekti) */
+QPushButton#btn_grammar:pressed {
+    background-color: #7DD3FC;
+    padding-top: 14px; /* Hafif çökme hissi */
+    border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Gramer</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="btn_listening">
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Dinleme Butonu - btn_listening */
+QPushButton#btn_listening {
+    /* Arka plan: Yumuşak lavanta moru */
+    background-color: #F5F3FF; 
+    
+    /* Yazı rengi: Derin mor/indigo (Siyah yerine) */
+    color: #5B21B6; 
+    
+    /* Kenarlık: Şeffaf mor hat */
+    border: 1px solid rgba(91, 33, 182, 0.2); 
+    
+    border-radius: 15px;
+    padding: 12px 20px;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Fare üzerine geldiğinde (Hover) */
+QPushButton#btn_listening:hover {
+    background-color: #EDE9FE; /* Bir ton daha koyu mor */
+    color: #4C1D95;
+    border: 1px solid #DDD6FE;
+}
+
+/* Tıklandığında (Basılma efekti) */
+QPushButton#btn_listening:pressed {
+    background-color: #DDD6FE;
+    padding-top: 14px;
+    border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Dinleme</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="btn_speaking">
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Konuşma Butonu - btn_speaking */
+QPushButton#btn_speaking {
+    /* Arka plan: Yumuşak bir şeftali / somon tonu */
+    background-color: #FFF7ED; 
+    
+    /* Yazı rengi: Koyu pas rengi / turuncu (Siyah yerine) */
+    color: #9A3412; 
+    
+    /* Kenarlık: Çok ince ve şeffaf turuncu hat */
+    border: 1px solid rgba(154, 52, 18, 0.2); 
+    
+    border-radius: 15px;
+    padding: 12px 20px;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Fare üzerine geldiğinde (Hover) */
+QPushButton#btn_speaking:hover {
+    background-color: #FFEDD5; /* Bir ton daha belirgin turuncu */
+    color: #7C2D12;
+    border: 1px solid #FED7AA;
+}
+
+/* Tıklandığında (Basılma efekti) */
+QPushButton#btn_speaking:pressed {
+    background-color: #FED7AA;
+    padding-top: 14px;
+    border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Konuşma</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="btn_quiz">
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Quiz Butonu - btn_quiz */
+QPushButton#btn_quiz {
+    /* Arka plan: Yumuşak bir nane yeşili / turkuaz */
+    background-color: #F0FDF4; 
+    
+    /* Yazı rengi: Derin zümrüt yeşili (Siyah yerine) */
+    color: #166534; 
+    
+    /* Kenarlık: Çok ince ve şeffaf bir yeşil hat */
+    border: 1px solid rgba(22, 101, 52, 0.2); 
+    
+    border-radius: 15px;
+    padding: 12px 20px;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Fare üzerine geldiğinde (Hover) */
+QPushButton#btn_quiz:hover {
+    background-color: #DCFCE7; /* Biraz daha belirgin yeşil */
+    color: #15803D;
+    border: 1px solid #BBF7D0;
+}
+
+/* Tıklandığında (Basılma efekti) */
+QPushButton#btn_quiz:pressed {
+    background-color: #BBF7D0;
+    padding-top: 14px;
+    border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>Sınavlar</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">/* ButtonBox genel alanı (Siyah kenarlık olmaması için) */
+QDialogButtonBox {
+    background-color: transparent;
+    border: none;
+}
+
+/* ButtonBox içindeki TÜM butonların ortak soft hali */
+QDialogButtonBox QPushButton {
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    min-width: 80px;
+}
+
+/* TAMAM (OK / Save / Yes) Butonu Stili */
+/* Qt genellikle kabul edilen butonları mavi/renkli yapar */
+QDialogButtonBox QPushButton[text=&quot;OK&quot;], 
+QDialogButtonBox QPushButton[text=&quot;&amp;OK&quot;],
+QDialogButtonBox QPushButton[text=&quot;Tamam&quot;] {
+    background-color: #DBEAFE; /* Soft Mavi */
+    color: #1E40AF; 
+    border: 1px solid rgba(30, 64, 175, 0.2);
+}
+
+QDialogButtonBox QPushButton[text=&quot;OK&quot;]:hover {
+    background-color: #BFDBFE;
+    border: 1px solid #93C5FD;
+}
+
+/* İPTAL (Cancel / No / Close) Butonu Stili */
+/* Vazgeçme butonunu daha sönük ve gri tonlarda yapıyoruz */
+QDialogButtonBox QPushButton[text=&quot;Cancel&quot;], 
+QDialogButtonBox QPushButton[text=&quot;&amp;Cancel&quot;],
+QDialogButtonBox QPushButton[text=&quot;İptal&quot;] {
+    background-color: #F1F5F9; /* Soft Gri */
+    color: #64748B;
+    border: 1px solid rgba(100, 116, 139, 0.2);
+}
+
+QDialogButtonBox QPushButton[text=&quot;Cancel&quot;]:hover {
+    background-color: #E2E8F0;
+    color: #475569;
+}
+
+/* Butonlara tıklandığında basılma efekti */
+QDialogButtonBox QPushButton:pressed {
+    padding-top: 10px;
+    background-color: #CBD5E1;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

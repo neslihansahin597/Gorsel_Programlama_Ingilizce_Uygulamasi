@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>677</width>
+    <height>463</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="lbl_yeni_kullanici">
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #3730A3; /* Koyu soft indigo - Siyah gibi sert durmaz */
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600; /* Yazıyı biraz daha okunaklı yapar */
+    background-color: transparent; /* Arka planı etkilemesin */
+}</string>
+     </property>
+     <property name="text">
+      <string>Yeni Kullanıcı Kaydı</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>69</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="lbl_kullanici_adi">
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #3730A3; /* Koyu soft indigo - Siyah gibi sert durmaz */
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600; /* Yazıyı biraz daha okunaklı yapar */
+    background-color: transparent; /* Arka planı etkilemesin */
+}</string>
+     </property>
+     <property name="text">
+      <string>Kullanıcı Adı</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLineEdit" name="line_reg_username">
+     <property name="styleSheet">
+      <string notr="true">/* Giriş Alanları - Pastel Mavi Kenarlık */
+QLineEdit {
+    border: 2px solid #C7D2FE;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: white;
+    color: #3730A3;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #818CF8; /* Odaklanınca renk canlanır */
+    background-color: #FDFDFF;
+}</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="lbl_eposta">
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #3730A3; /* Koyu soft indigo - Siyah gibi sert durmaz */
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600; /* Yazıyı biraz daha okunaklı yapar */
+    background-color: transparent; /* Arka planı etkilemesin */
+}</string>
+     </property>
+     <property name="text">
+      <string>E-Posta Alanı</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="line_reg_email">
+     <property name="styleSheet">
+      <string notr="true">/* Giriş Alanları - Pastel Mavi Kenarlık */
+QLineEdit {
+    border: 2px solid #C7D2FE;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: white;
+    color: #3730A3;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #818CF8; /* Odaklanınca renk canlanır */
+    background-color: #FDFDFF;
+}</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="lbl_sifre">
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #3730A3; /* Koyu soft indigo - Siyah gibi sert durmaz */
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600; /* Yazıyı biraz daha okunaklı yapar */
+    background-color: transparent; /* Arka planı etkilemesin */
+}</string>
+     </property>
+     <property name="text">
+      <string>Şifre Alanı</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLineEdit" name="line_reg_password">
+     <property name="styleSheet">
+      <string notr="true">/* Giriş Alanları - Pastel Mavi Kenarlık */
+QLineEdit {
+    border: 2px solid #C7D2FE;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: white;
+    color: #3730A3;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #818CF8; /* Odaklanınca renk canlanır */
+    background-color: #FDFDFF;
+}</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="lbl_sifre_tekrari">
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #3730A3; /* Koyu soft indigo - Siyah gibi sert durmaz */
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: 600; /* Yazıyı biraz daha okunaklı yapar */
+    background-color: transparent; /* Arka planı etkilemesin */
+}</string>
+     </property>
+     <property name="text">
+      <string>Şifre Tekrarı Alanı</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLineEdit" name="line_reg_confirm_password">
+     <property name="styleSheet">
+      <string notr="true">/* Giriş Alanları - Pastel Mavi Kenarlık */
+QLineEdit {
+    border: 2px solid #C7D2FE;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: white;
+    color: #3730A3;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #818CF8; /* Odaklanınca renk canlanır */
+    background-color: #FDFDFF;
+}</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QPushButton" name="btn_register">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI,sans-serif</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Kayıt Ol Butonu - Siyahlık tamamen kaldırıldı */
+QPushButton#btn_register {
+    /* Arka plan: Çok soft, kremsi bir lavanta/mor */
+    background-color: #F0EFFF; 
+    
+    /* Yazı rengi: Siyah yerine derin bir indigo mavi */
+    color: #6366F1; 
+    
+    /* Kenarlık: Sert siyah yerine çok ince, soft bir mor-mavi hat */
+    border: 1px solid #D1D5DB; 
+    border-color: rgba(99, 102, 241, 0.2); 
+    
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Fare üzerine geldiğinde (Hover efekti) */
+QPushButton#btn_register:hover {
+    /* Daha belirgin bir soft mor/pembe geçişi */
+    background-color: #E5E7FF;
+    color: #4F46E5;
+    border: 1px solid #818CF8;
+}
+
+/* Tıklandığında (Basılma hissi) */
+QPushButton#btn_register:pressed {
+    background-color: #C7D2FE;
+    padding-top: 11px; /* Hafif aşağı çökme efekti */
+}</string>
+     </property>
+     <property name="text">
+      <string>Kayıt Ol</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>188</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

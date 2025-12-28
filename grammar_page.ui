@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>860</width>
+    <height>766</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,3">
+    <item>
+     <widget class="QListWidget" name="list_grammar_topics">
+      <property name="styleSheet">
+       <string notr="true">/* Dil Bilgisi Konu Listesi - list_grammar_topics */
+QListWidget#list_grammar_topics {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    color: #334155;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+    outline: none;
+    padding: 5px;
+}
+
+/* Listedeki maddeler */
+QListWidget#list_grammar_topics::item {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+QListWidget#list_grammar_topics::item:hover {
+    background-color: #F8FAFF;
+    color: #6366F1;
+}
+
+QListWidget#list_grammar_topics::item:selected {
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    font-weight: bold;
+    border: none;
+}
+
+/* --- SCROLLBAR (KAYDIRMA ÇUBUĞU) TASARIMI --- */
+
+/* Dikey Kaydırma Çubuğu Kanalı */
+QListWidget#list_grammar_topics QScrollBar:vertical {
+    border: none;
+    background: #F8FAFF; /* Kanal arka planı */
+    width: 8px;          /* İnce ve zarif genişlik */
+    margin: 0px;
+    border-radius: 4px;
+}
+
+/* Kaydırma Çubuğunun Tutacağı */
+QListWidget#list_grammar_topics QScrollBar::handle:vertical {
+    background: #CBD5E1; /* Soft gri renk */
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+/* Tutacağın üzerine gelindiğinde */
+QListWidget#list_grammar_topics QScrollBar::handle:vertical:hover {
+    background: #94A3B8; /* Biraz daha koyu gri */
+}
+
+/* Alt ve Üst Ok Butonlarını Gizle */
+QListWidget#list_grammar_topics QScrollBar::add-line:vertical, 
+QListWidget#list_grammar_topics QScrollBar::sub-line:vertical {
+    height: 0px;
+    background: none;
+}
+
+/* Kanalın üst ve alt boşlukları */
+QListWidget#list_grammar_topics QScrollBar::add-page:vertical, 
+QListWidget#list_grammar_topics QScrollBar::sub-page:vertical {
+    background: none;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="leftMargin">
+        <number>20</number>
+       </property>
+       <property name="topMargin">
+        <number>20</number>
+       </property>
+       <property name="rightMargin">
+        <number>20</number>
+       </property>
+       <property name="bottomMargin">
+        <number>20</number>
+       </property>
+       <item>
+        <widget class="QTextEdit" name="text_grammar_content">
+         <property name="styleSheet">
+          <string notr="true">/* Gramer İçerik Alanı - text_grammar_content */
+QTextEdit#text_grammar_content, QTextBrowser#text_grammar_content {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    color: #1E293B;
+    font-family: &quot;Segoe UI&quot;, &quot;Georgia&quot;, serif;
+    font-size: 15px;
+    padding: 15px;
+}
+
+/* --- BU ALANA ÖZEL SCROLLBAR (KAYDIRMA ÇUBUĞU) --- */
+
+/* Dikey Kaydırma Kanalı */
+QTextEdit#text_grammar_content QScrollBar:vertical, 
+QTextBrowser#text_grammar_content QScrollBar:vertical {
+    border: none;
+    background: #F1F5F9; /* Çok hafif gri arka plan */
+    width: 8px;          /* Zarif ve ince görünüm */
+    margin: 0px;
+    border-radius: 4px;
+}
+
+/* Kaydırma Çubuğu Tutacağı */
+QTextEdit#text_grammar_content QScrollBar::handle:vertical,
+QTextBrowser#text_grammar_content QScrollBar::handle:vertical {
+    background: #CBD5E1; /* Soft gri tutacak */
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+/* Tutacak Üzerine Gelindiğinde */
+QTextEdit#text_grammar_content QScrollBar::handle:vertical:hover,
+QTextBrowser#text_grammar_content QScrollBar::handle:vertical:hover {
+    background: #94A3B8; /* Biraz daha koyu soft gri */
+}
+
+/* Ok Butonlarını Gizle */
+QTextEdit#text_grammar_content QScrollBar::add-line:vertical, 
+QTextEdit#text_grammar_content QScrollBar::sub-line:vertical,
+QTextBrowser#text_grammar_content QScrollBar::add-line:vertical,
+QTextBrowser#text_grammar_content QScrollBar::sub-line:vertical {
+    height: 0px;
+    background: none;
+}
+
+/* Kanal Boşlukları (Gereksiz gölgeleri siler) */
+QTextEdit#text_grammar_content QScrollBar::add-page:vertical, 
+QTextEdit#text_grammar_content QScrollBar::sub-page:vertical,
+QTextBrowser#text_grammar_content QScrollBar::add-page:vertical,
+QTextBrowser#text_grammar_content QScrollBar::sub-page:vertical {
+    background: none;
+}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_back">
+         <property name="styleSheet">
+          <string notr="true">/* Geri Dön / Menüye Dön Butonu - btn_back */
+QPushButton#btn_back {
+    /* Arka plan: Çok hafif ve temiz bir gri-mavi */
+    background-color: #F8FAFF; 
+    
+    /* Yazı rengi: Siyah yerine orta tonlu bir indigo/mavi */
+    color: #6366F1; 
+    
+    /* Kenarlık: İnce ve yumuşak bir hat */
+    border: 1px solid #E2E8F0;
+    
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Fare üzerine geldiğinde (Hover) */
+QPushButton#btn_back:hover {
+    /* Hafif bir dolgu ve yazı renginde canlanma */
+    background-color: #EEF2FF;
+    color: #4F46E5;
+    border: 1px solid #C7D2FE;
+}
+
+/* Tıklandığında (Basılma efekti) */
+QPushButton#btn_back:pressed {
+    background-color: #E0E7FF;
+    /* Hafif içeri çökme hissi */
+    padding-top: 10px;
+    padding-bottom: 6px;
+}</string>
+         </property>
+         <property name="text">
+          <string>Menüye Dön</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>860</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
