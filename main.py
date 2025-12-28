@@ -5,19 +5,17 @@ from PyQt5.QtWidgets import QApplication, QDialog, QMessageBox, QMainWindow
 from PyQt5.uic import loadUi
 from pymongo import MongoClient
 
-# Diğer sayfalar (Dosyaların proje klasöründe olduğundan emin ol)
 from alistirma_sayfasi import AlistirmaSayfasi
 
-# --- MongoDb Bağlantı Ayarları ---
+# MongoDb baglantıları
 MONGO_URI = "mongodb://localhost:27017/"
 DATABASE_NAME = "EnglishAppDB"
 COLLECTION_NAME = "Grammar"
 COLLECTION_NAME_VOCABULARY = "Vocabulary"
 
-# --- Veritabanı Yardımcı Fonksiyonları ---
-
+# Veritabanına yardımcı fonksiyonlar
+#Genek kolleksiyon cekme fonk
 def get_db_collection(collection_name):
-    """Genel koleksiyon çekme fonksiyonu"""
     try:
         client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=3000)
         db = client[DATABASE_NAME]
@@ -25,9 +23,8 @@ def get_db_collection(collection_name):
     except Exception as e:
         print(f"Bağlantı hatası ({collection_name}):", e)
         return None, None
-
+#garmaer kolacksiyonu için fonk
 def get_mongo_collection():
-    """Grammar koleksiyonu için özel fonksiyon"""
     client = None
     try:
         client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=3000)
@@ -40,9 +37,8 @@ def get_mongo_collection():
         if client:
             client.close()
         return None, None
-
+#vocabulary koleksiyonu için fonk
 def get_mongo_collection_vocab():
-    """Vocabulary koleksiyonu için özel fonksiyon"""
     client = None
     try:
         client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=3000)
@@ -56,8 +52,7 @@ def get_mongo_collection_vocab():
             client.close()
         return None, None
 
-# --- User CRUD İşlemleri ---
-
+# CRUD kısmı
 def update_user_password(username, new_password):
     col, client = get_db_collection("Users")
 
@@ -65,18 +60,18 @@ def update_user_password(username, new_password):
         return False
 
     try:
-        # MongoDB'den dönen sonuç bilgisini (result) alıyoruz
+        #MongoDb den dönen sonuç bilgisi
         result = col.update_one(
             {"username": username},
             {"$set": {"password": new_password}}
         )
 
-        # HATA AYIKLAMA İÇİN: Konsola ne olup bittiğini yazdıralım
+        #Hata ayıklama
         print(f"Güncellenen Kullanıcı: {username}")
         print(f"Eşleşen Kayıt Sayısı: {result.matched_count}")
         print(f"Değiştirilen Kayıt Sayısı: {result.modified_count}")
 
-        # Eğer hiç eşleşen kayıt yoksa (matched_count 0 ise), kullanıcı bulunamadı demektir.
+        # Eşlesen kayıt yoksa kullanıcı yoktur
         if result.matched_count > 0:
             return True
         else:
@@ -92,7 +87,7 @@ def update_user_password(username, new_password):
 def delete_user_account(username):
     col, client = get_db_collection("Users")
 
-    # PyMongo hatasını önleyen düzeltme burada da olmalı
+    # PyMongo hatasını önleyen düzeltme
     if col is None:
         return False
 
@@ -105,8 +100,8 @@ def delete_user_account(username):
     finally:
         if client:
             client.close()
-# --- Arayüz Sınıfları ---
 
+#Arayüz sınıflarımız
 class SifreSifirlamaSayfasi(QDialog):
     def __init__(self):
         super(SifreSifirlamaSayfasi, self).__init__()
@@ -144,7 +139,7 @@ class KayitSayfasi(QDialog):
 
         col, client = get_db_collection("Users")
 
-        # DÜZELTME 3: if not col yerine if col is None
+
         if col is None:
             QMessageBox.critical(self, "Hata", "Veritabanına bağlanılamadı.")
             return
@@ -179,7 +174,7 @@ class GirisSayfasi(QDialog):
 
         col, client = get_db_collection("Users")
 
-        # DÜZELTME 4: if not col yerine if col is None
+
         if col is None:
             QMessageBox.critical(self, "Hata", "Veritabanına bağlanılamadı.")
             return
@@ -458,16 +453,12 @@ class AnaPencere(QMainWindow):
 
     def open_exercise(self):
         try:
-            # Buradaki hatalı parametre kullanımını da düzeltmek gerekebilir
-            # AlistirmaSayfasi'nın __init__'i ne bekliyor emin değilim ama
-            # genellikle fonksiyon referansı yerine sonucu gönderilir.
-            # Şimdilik get_db_collection fonksiyon referansı olarak bıraktım (orijinal kod)
             self.ex_window = AlistirmaSayfasi(get_db_collection)
             self.ex_window.show()
         except Exception as e:
             print("Alıştırma sayfası hatası:", e)
 
-# --- Main Çalıştırma Bloğu (Hata Yakalayıcı ile) ---
+# Main bloğu hata yakalama ksımı ile beraber
 if __name__ == '__main__':
     # Beklenmedik hataları konsola yazdırmak için
     def my_excepthook(type, value, tback):

@@ -42,7 +42,7 @@ class KelimeKutusuSayfasi(QWidget):
         self.output_widget.clear()
 
         try:
-            # 1.MongoDB'den ilgili seviyenin tüm parçalarını çek (Regex ile PART1, PART2 hepsini bulur)
+            # 1.MongoDB'den ilgili seviyenin tüm parçalarını çek (Regex hepsini bulur)
             sorgu = {"tense_id": {"$regex": f"^{oneki}"}}
             dokumanlar = self.collection.find(sorgu).sort("tense_id", 1)
 
