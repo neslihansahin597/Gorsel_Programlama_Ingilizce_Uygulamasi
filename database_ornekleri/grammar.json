@@ -1,0 +1,1683 @@
+[{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762ac"
+  },
+  "tense_id": "T001",
+  "name_en": "Present Simple Tense",
+  "name_tr": "Geniş Zaman",
+  "section_title": "1.1 Present Simple Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Dünyayla ilgili her zaman doğru ve kalıcı olan genel gerçeklerden bahsetmek için geniş zamanı (Present simple tense) kullanırız.",
+      "examples": [
+        {
+          "en": "Ten times ten makes one hundred.",
+          "tr": "10 kere 10 100 yapar."
+        },
+        {
+          "en": "There is always a holiday on the last Monday in August in the UK.",
+          "tr": "Birleşik Krallık'da ağustosun son pazartesi günü her zaman tatil olur."
+        },
+        {
+          "en": "Time passes very quickly when you get older.",
+          "tr": "Büyüdükçe zaman daha hızlı geçer."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Düzenli olarak yaptığımız alışkanlıklarımızdan bahsederken geniş zamanı (Present simple tense) kullanırız.",
+      "examples": [
+        {
+          "en": "How do you get to work? Do you get the bus?",
+          "tr": "İşe nasıl geliyorsun?, otobüse mi biniyorsun?"
+        },
+        {
+          "en": "I read every night before I go to sleep.",
+          "tr": "Her gece uyumadan önce okurum."
+        },
+        {
+          "en": "We always have a holiday in the summer. We never work in August.",
+          "tr": "Bizim yazın her zaman tatilimiz olur. Ağustos'ta asla çalışmayız."
+        },
+        {
+          "en": "We usually fly to France when we go. Lorea doesn't like the ferry. It makes her feel sick.",
+          "tr": "Gittiğimiz zaman Fransa'ya uçarız. Lorea feribotu sevmiyor. Feribot onu hasta hissettiriyor."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Talimat veya yol tarifi verirken geniş zamanı (Present simple tense) kullanırız.",
+      "examples": [
+        {
+          "en": "You take the train into the city centre and then you take a number five bus. You don't get off at the museum. You get off at the stop after the museum.",
+          "tr": "Şehir merkezine gitmek için trene binersin ve sonrasında 5 numaralı otobüse binersin. Müzede inmeyeceksin. Müzeden sonraki durakta ineceksin."
+        },
+        {
+          "en": "So what you do is you read the questions first and then you write down your answers in the box. You don't write on the question paper.",
+          "tr": "Yapman gereken şu...önce soruları okuyacaksın ve ardından kutulara cevaplarını yazacaksın. Soru kağıdına yazmayacaksın."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Konuşma anındaki duygulardan ve tepkilerden bahsetmek için genellikle duyu ve algı fiileriyle birlikte geniş zamanı (Present simple tense) kullanırız.",
+      "examples": [
+        {
+          "en": "Do you think that meat is ok to eat? It doesn't smell very good.",
+          "tr": "Etin yenmesinin uygun olduğunu düşünüyor musun? Çok güzel kokmuyor."
+        },
+        {
+          "en": "Where does it hurt?",
+          "tr": "Neresi acıyor?"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Speech act verbs (Tanımladıkları eylemi gerçekleştiren filler) kullanırken geniş zamanı kullanırız.",
+      "examples": [
+        {
+          "en": "I will pay you back, I promise, when I get paid.",
+          "tr": "Maaşımı aldığımda sana geri ödeyeceğim söz veriyorum."
+        },
+        {
+          "en": "I agree with everything you say.",
+          "tr": "Söylediğin her şeye katılıyorum."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Gelecekteki bir planın veya zaman çizelgesinin parçası olan olaylardan bahsederken şimdiki zamanı kullanırız.",
+      "examples": [
+        {
+          "en": "The lesson starts at 9.30 tomorrow instead of 10.30.",
+          "tr": "Ders yarın 10.30 yerine 9.30 da başlıyor."
+        },
+        {
+          "en": "They don't start back to school until next Monday.",
+          "tr": "Gelecek pazartesiden önce okula geri dönmeyecekler."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.1.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/you/we/they) + verb (base form)",
+        "Subject (He/she/it) + verb-s"
+      ],
+      "examples": [
+        {
+          "en": "The earth goes around the sun.",
+          "tr": "Dünya güneşin etrafında döner."
+        },
+        {
+          "en": "I usually go out after work.",
+          "tr": "Genellikle işten sonra dışarı çıkarım."
+        },
+        {
+          "en": "The cafe opens at 7.30 in the morning.",
+          "tr": "Cafe sabah 7.30'da açılır."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.1.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/you/we/they) + don't + verb (base form)",
+        "Subject (He/she/it) + doesn't + verb (base form)"
+      ],
+      "examples": [
+        {
+          "en": "I don't go out after work.",
+          "tr": "İşten sonra dışarı çıkmam."
+        },
+        {
+          "en": "She doesn't work at the weekends.",
+          "tr": "O hafta sonları çalışmıyor."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.1.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Do + Subject (I/you/we/they) + verb (base form)",
+        "Does + Subject (He/she/it) + verb (base form)"
+      ],
+      "examples": [
+        {
+          "en": "Do you go out after work?",
+          "tr": "İşten sonra dışarı çıkar mısın?"
+        },
+        {
+          "en": "Does she work at the weekends?",
+          "tr": "O hafta sonları çalışır mı?"
+        }
+      ]
+    },
+    {
+      "type": "adverb_block",
+      "title": "1.1.4 Used Adverbs (Kullanılan Zarflar)",
+      "items": [
+        "Always (Her zaman)",
+        "Usually (Genellikle)",
+        "Often (Sıklıkla)",
+        "Sometimes (Bazen)",
+        "Rarely (Nadiren)",
+        "Never (Asla)"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762ad"
+  },
+  "tense_id": "T002",
+  "name_en": "Present Continuous Tense",
+  "name_tr": "Şimdiki Zaman",
+  "section_title": "1.2 Present Continuous Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Biz konuşurken o anda gelişen eylemlerden bahsetmek için kullanırız.",
+      "examples": [
+        {
+          "en": "A: What time's dinner? B: I'm cooking now so it'll be ready in about half an hour.",
+          "tr": "A: Akşam yemeği ne zaman? B: Şu anda pişiriyorum yani yarım saate hazır olur."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Şu anda doğru olan geçici durumlardan bahsederken kullanırız.",
+      "examples": [
+        {
+          "en": "Her mother's living with her at the moment. She's just come out of hospital.",
+          "tr": "Annesi onunla beraber yaşıyor. O hastaneden yeni çıktı."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Geçici olmasını istediğimiz tekrarlı veya düzenli olaylardan bahsederken kullanırız.",
+      "examples": [
+        {
+          "en": "I am not drinking much coffee these days. I am trying to cut down.",
+          "tr": "Bugünlerde çok kahve içmiyorum. Azaltmaya çalışıyorum."
+        },
+        {
+          "en": "She is working a lot in London at the moment.",
+          "tr": "Şu anda Londra'da çok çalışıyor."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Aşamalı değişimlerden bahsederken kullanırız.",
+      "examples": [
+        {
+          "en": "They're building a new stand at the football ground.",
+          "tr": "Futbol sahasına yeni bir stat inşa ediyorlar."
+        },
+        {
+          "en": "Maria is getting better and doctors are optimistic she will make a full recovery.",
+          "tr": "Maria iyiye gidiyor ve doktorlar onun tamamen iyileşeceğinden iyimser."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Zaten yapılmış olan planlar ve düzenlemelerden bahsederken gelecekten bahsetmek için şimdiki zamanı kullanırız.",
+      "examples": [
+        {
+          "en": "We're moving to Cambridge in July.",
+          "tr": "Temmuzda Cambridge'e taşınıyoruz."
+        },
+        {
+          "en": "Aren't you playing tennis on Saturday?",
+          "tr": "Cumartesi tenis oynamayacak mısın?"
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.2.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I) + am + verb-ing",
+        "Subject (He/she/it) + is + verb-ing",
+        "Subject (You/we/they) + are + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "I am making a video right now.",
+          "tr": "Şu anda bir video yapıyorum."
+        },
+        {
+          "en": "She is working on a project.",
+          "tr": "O şu anda bir projede çalışıyor."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.2.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I) + am + not + verb-ing",
+        "Subject (He/she/it) + is + not + verb-ing",
+        "Subject (You/we/they) + are + not + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "I am not making a video right now.",
+          "tr": "Şu anda video yapmıyorum."
+        },
+        {
+          "en": "She is not working on a project right now.",
+          "tr": "O şu anda bir projede çalışmıyor."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.2.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Am + subject (I) + verb-ing",
+        "Is + subject (He/she/it) + verb-ing",
+        "Are + subject (You/we/they) + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "Are you making a video right now?",
+          "tr": "Şu anda bir video mu yapıyorsun?"
+        },
+        {
+          "en": "Is she working on a project right now?",
+          "tr": "O şu anda bir projede mi çalışıyor?"
+        }
+      ]
+    },
+    {
+      "type": "adverb_block",
+      "title": "1.2.4 Used Adverbs (Kullanılan Zarflar)",
+      "items": [
+        "Right now (Şu an / şimdi)",
+        "At the moment (Şu anda / şimdi)",
+        "Currently (Şu anda / halen)",
+        "Nowadays (Bugünlerde)",
+        "Now (Şimdi)"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762ae"
+  },
+  "tense_id": "T003",
+  "name_en": "Present Perfect Tense",
+  "name_tr": "Yakın Geçmiş Zaman",
+  "section_title": "1.3 Present Perfect Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Geçmişte yaşanan ancak şimdiki zamanla bağlantısı olan olaylardan bahsederken present perfect tense kullanırız. Şimdiye kadarki deneyimlerimizden bahsederken present perfect tense kullanırız. Deneyimlerin zamanı önemli değildir.",
+      "examples": [
+        {
+          "en": "We're going to Wagamama's for dinner tonight. I've been there a couple of times before.",
+          "tr": "Bu akşam, akşam yemeği için Wagamalara gideceğiz. Daha önce birkaç kez oraya gitmiştim."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Spesifik bir zaman vermesekte ever, never, before, in my life, so far, up until now gibi genel zaman zarflarını present perfect tense de kullanırız.",
+      "examples": [
+        {
+          "en": "They've sold 110 so far.",
+          "tr": "Onlar şimdiye kadar 110 tane sattılar."
+        },
+        {
+          "en": "It was the worst performance we have ever seen.",
+          "tr": "Şimdiye kadar gördüğümüz en kötü performanstı."
+        },
+        {
+          "en": "She's never said sorry for what she did.",
+          "tr": "Yaptığı şeyden dolayı asla özür dilemedi."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Superlative (En üstünlük derecesi) kullanırken, eşsiz bir deneyim için genellikle present perfect tense'i kullanırız.",
+      "examples": [
+        {
+          "en": "I felt the happiest I have ever felt. My first Olympic final; the bronze medal; European record of 9.97 seconds.",
+          "tr": "Hayatımda hiç bu kadar mutlu hissetmemiştim. İlk olimpiyat madalyam:bronz madalya:9.97 saniyelik avrupa rekoru."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Yakın zamanda tamamlanmış ve hala etkisini devam ettiren olaylarda present perfect tense'i kullanırız.",
+      "examples": [
+        {
+          "en": "She's broken her arm in two places. (Her arm is still broken now.)",
+          "tr": "Kolu iki yerinden kırılmış. (Kolu hala kırık.)"
+        },
+        {
+          "en": "A fire has broken out at a disused hotel on the seafront. (The fire is burning now; it's a recent event too.)",
+          "tr": "Deniz kıyısında kullanılmayan bir otelde yangın çıktı. (Yangın hala devam ediyor.)"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "For ve since ile present perfect tense'i, geçmişte belirli bir noktada başlayan ve şu anda hala devam eden bir durumdan bahsetmek için kullanırız.",
+      "examples": [
+        {
+          "en": "That house on the corner has been empty for three years.",
+          "tr": "Köşedeki ev 3 yıldır boş."
+        },
+        {
+          "en": "That house on the corner has been empty since 2006.",
+          "tr": "Köşedeki ev 2006'dan beri boş."
+        },
+        {
+          "en": "A: How long have you worked there? B: Since 21 August. So for about four months.",
+          "tr": "A: Ne zamandan beri burada çalışıyorsun? B: 21 Ağustosdan beri. Yaklaşık 4 ay oluyor."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Bir şeyin beklenen zamandan önce yapıldığını veya başarıldığını vurgulamak istediğimizde already (zaten/çoktan) + present perfect tense kullanırız.",
+      "examples": [
+        {
+          "en": "I've already booked my flight home.",
+          "tr": "Eve dönüş biletimi çoktan aldım."
+        },
+        {
+          "en": "A: Will you go and clean your teeth! B: I've already cleaned them.",
+          "tr": "A: Git ve dişlerini fırçala! B: Onları çoktan fırçaladım."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Beklediğimiz bir şeyin gerçekleşmeye devam etmediğini vurgulamak istediğimizde still (hala) + present perfect simple kullanırız.",
+      "examples": [
+        {
+          "en": "She still hasn't said sorry to me.",
+          "tr": "Hala benden özür dilemedi."
+        },
+        {
+          "en": "I feel really tired. I still haven't recovered from the jet lag.",
+          "tr": "Çok yorgun hissediyorum. Hala jet lag'in etkisinden kurtulamadım."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.3.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (He/she/it) + Has + Verb3",
+        "Subject (I/You/We/They) + Have + Verb3"
+      ],
+      "examples": [
+        {
+          "en": "I have painted the wall.",
+          "tr": "Duvarları boyadım."
+        },
+        {
+          "en": "He has gone out to get some groceries.",
+          "tr": "Biraz sebze almak için çıktı."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.3.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (He/She/It) + Has + not + Verb3",
+        "Subject (I/You/We/They) + Have + not + Verb3"
+      ],
+      "examples": [
+        {
+          "en": "I haven't painted the wall.",
+          "tr": "Duvarı boyamadım."
+        },
+        {
+          "en": "He hasn't gone out to get some groceries.",
+          "tr": "Biraz sebze almak için dışarı çıkmadı."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.3.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Has + Subject (He/she/it) + Verb3",
+        "Have + Subject (I/You/We/They) + Verb3"
+      ],
+      "examples": [
+        {
+          "en": "Have you painted the wall?",
+          "tr": "Duvarı boyadın mı?"
+        },
+        {
+          "en": "Has he gone out to get some groceries?",
+          "tr": "Biraz sebze almak için dışarı çıktı mı?"
+        }
+      ]
+    },
+    {
+      "type": "adverb_block",
+      "title": "1.3.4 Used Adverbs (Kullanılan Zarflar)",
+      "items": [
+        "Already",
+        "Just",
+        "Yet",
+        "Since",
+        "For",
+        "Ever",
+        "Still"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762af"
+  },
+  "tense_id": "T004",
+  "name_en": "Present Perfect Continuous Tense",
+  "name_tr": "Yakın Geçmişte Devam Eden Zaman",
+  "section_title": "1.4 Present Perfect Continuous Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Yakın geçmişte tamamlanmış bir aktiviteden bahsetmek için kullanırız. Aktiviteye odaklanır. Aktivite bitmiş olsa bile, sonucu şimdiki zamanda görebiliriz.",
+      "examples": [
+        {
+          "en": "I've just been cleaning the car. (The car is wet and clean.)",
+          "tr": "Az önce arabayı temizliyordum. (Araba ıslak ve temiz.)"
+        },
+        {
+          "en": "It's been snowing. (The ground is covered in snow.)",
+          "tr": "Kar yağıyordu. (Yer tamamen kar ile kaplandı.)"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Geçmişte bir noktada başlayan ve hala devam eden tek bir etkinlik için kullanırız.",
+      "examples": [
+        {
+          "en": "I've been reading your book it's great. (I'm still reading it.)",
+          "tr": "Kitabınızı okuyorum-bu harika (Hala okuyorum.)"
+        },
+        {
+          "en": "He's been living in the village since 1995. (He is still living in the village.)",
+          "tr": "1995'ten beri köyde yaşıyor. (Hala köyde yaşıyor.)"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Geçmişte belirli bir zamanda başlayan ve şu ana kadar devam eden tekrarlanan aktivitelerden bahsetmek için kullanırız.",
+      "examples": [
+        {
+          "en": "I've been going to Spain on holiday every year since 1987.",
+          "tr": "1987'den beri her yıl İspanya'ya tatile gidiyorum."
+        },
+        {
+          "en": "I haven't been eating much lunch lately. I've been going to the gym at lunchtimes.",
+          "tr": "Son zamanlarda öğle yemeğini çok yemiyorum. Öğle vakitlerinde spor salonuna gidiyorum."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Bir etkinliğin süresi hakkında soru sormak ve cevaplamak için sıklıkla present perfect continuous tense kullanırız.",
+      "examples": [
+        {
+          "en": "A: How long have you been waiting for me? B: About ten minutes. Not too long.",
+          "tr": "A: Beni ne kadar zamandan beri bekliyorsun? B: Yaklaşık 10 dakika. Çok olmadı."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.4.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (He/she/it) + Has been + Verb-ing",
+        "Subject (I/You/We/They) + Have been + Verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "I have been making a video.",
+          "tr": "Bir video yapıyorum."
+        },
+        {
+          "en": "She has been watching youtube all day.",
+          "tr": "O bütün gün youtube izledi."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.4.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (He/she/it) + Has not been + Verb-ing",
+        "Subject (I/You/We/They) + Have not been + Verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "I haven't been making a video.",
+          "tr": "Video yapmıyorum."
+        },
+        {
+          "en": "She hasn't been watching youtube all day.",
+          "tr": "O bütün gün youtube izlemiyordu."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "1.4.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Has + Subject (He/she/it) + been + Verb-ing",
+        "Have + Subject (I/You/We/They) + been + Verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "Have you been making a video?",
+          "tr": "Video yapıyor muydun?"
+        },
+        {
+          "en": "Has she been watching youtube all day?",
+          "tr": "O bütün gün youtube izliyor muydu?"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b0"
+  },
+  "tense_id": "T005",
+  "name_en": "Past Simple Tense",
+  "name_tr": "Geçmiş Zaman",
+  "section_title": "2.1 Past Simple Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Geçmişte belirli bir zamandan bahsetmek için past simple tense (geçmiş zaman) kullanırız (genellikle bir şeyin ne zaman gerçekleştiğini belirtiriz.)",
+      "examples": [
+        {
+          "en": "Did you watch that film yesterday?",
+          "tr": "Dünkü filmi izledin mi?"
+        },
+        {
+          "en": "He left at the end of November.",
+          "tr": "Kasımın sonunda gitti."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Bir kere gerçekleşen olaylardan bahsederken past simple tense kullanırız.",
+      "examples": [
+        {
+          "en": "He fell off his bike and his friends took him to a doctor.",
+          "tr": "Bisikletten düştü ve arkadaşları onu doktora götürdüler."
+        },
+        {
+          "en": "She ran out and she phoned my brother.",
+          "tr": "Koşarak dışarı çıktı ve kardeşimi aradı."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Birden fazla kez gerçekleşen olaylardan bahsederken past simple tense (geçmiş zaman) kullanılır.",
+      "examples": [
+        {
+          "en": "They travelled to Italy every summer and always stayed in small villages on the coast.",
+          "tr": "Onlar her yaz İtalya'ya seyahat ederler ve her zaman kıyıdaki küçük köylerde kalırlardı."
+        },
+        {
+          "en": "As children, we played all kinds of games on the street.",
+          "tr": "Çocukken bütün oyunları oynardık."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Duygu durumlarından bahsederken past simple tense (geçmiş zaman) kullanırız.",
+      "examples": [
+        {
+          "en": "She looked a bit upset.",
+          "tr": "Biraz üzgün görünüyordu."
+        },
+        {
+          "en": "Did you feel afraid?",
+          "tr": "Korktun mu?"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Bazen past simple tense(geçmiş zaman) kullanıldığında zaman ifadesi bulunmaz. Bu durum özellikle zamanı bildiğimizde ortaya çıkar.",
+      "examples": [
+        {
+          "en": "Leonardo Da Vinci painted the Mona Lisa.",
+          "tr": "Leonardo Da Vinci Mona Lisa' yı çizdi. (Genel bilgimizden, Leonardo Da Vinci'nin Mona Lisa'yı birkaç yüz yıl önce çizdiğini biliyoruz.)"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Bir geçmiş olay diğerinden sonra gerçekleştiğinde, past simple tense'de (geçmiş zaman) belirtilen ilk olay önce gerçekleşmiş, ikincisi ondan sonra gerçekleşmiş ve bu böyle devam eder. Fiillerin sırasını değiştirirsek, anlam da değişir.",
+      "examples": [
+        {
+          "en": "(event 1) I turned off the light and (event 2) got into bed.",
+          "tr": "(1.olay) Işığı kapattım ve (2.olay) yatağa girdim."
+        },
+        {
+          "en": "(event 1) I got into bed and (event 2) turned off the light.",
+          "tr": "(1.olay) yatağa girdim ve (2.olay) ışığı kapattım."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.1.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + Verb2 (Fiilin 2.hali)"
+      ],
+      "examples": [
+        {
+          "en": "My mom cleaned the house.",
+          "tr": "Annem evi temizledi."
+        },
+        {
+          "en": "I saw my friend in town a few days ago.",
+          "tr": "Arkadaşımı birkaç gün önce kasabada gördüm."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.1.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + Did not + Verb (Base form)"
+      ],
+      "examples": [
+        {
+          "en": "My mom didn't clean the house.",
+          "tr": "Annem evi temizlemedi."
+        },
+        {
+          "en": "I didn't see my friend in town a few days ago.",
+          "tr": "Arkadaşımı birkaç gün önce kasabada görmedim."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.1.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Did + Subject (I/You/We/They/He/she/it) + Verb (Base form)"
+      ],
+      "examples": [
+        {
+          "en": "Did she clean the house yesterday?",
+          "tr": "Dün evi temizledi mi?"
+        },
+        {
+          "en": "Did you see your friend in town a few days ago?",
+          "tr": "Arkadaşını birkaç gün önce kasabada gördün mü?"
+        }
+      ]
+    },
+    {
+      "type": "adverb_block",
+      "title": "2.1.4 Used Adverbs (Kullanılan Zarflar)",
+      "items": [
+        "Yesterday (Dün)",
+        "Last (Geçen)",
+        "...ago (...önce)",
+        "in 2019 (2019'da)"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b1"
+  },
+  "tense_id": "T005_IRR",
+  "name_en": "Past Simple: Irregular Verbs",
+  "name_tr": "Geçmiş Zaman: Düzensiz Fiiller",
+  "section_title": "2.2 Past Simple Tense: irregular verbs",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Birçok fiil düzensizdir. Her birinin öğrenilmesi gerekir. Bu fiiller fiilin 2.halidir. Bu fiilerin 2.halleri bazılarının tamamen değişirken bazılarının aynı kalır.",
+      "examples": [
+        {
+          "en": "be - was/were (She was afraid.)",
+          "tr": "be - was/were (Korkuyordu.)"
+        },
+        {
+          "en": "begin - began (The meal began with soup.)",
+          "tr": "Yemeğe çorba ile başlanır."
+        },
+        {
+          "en": "come - came (Everyone came to my house for the weekend.)",
+          "tr": "Hafta sonu için herkes benim evime geldi."
+        },
+        {
+          "en": "do - did (Look what I did!)",
+          "tr": "Ne yaptığıma bak!"
+        },
+        {
+          "en": "eat - ate (The birds ate all of the bread.)",
+          "tr": "Kuşlar bütün ekmeği yedi."
+        },
+        {
+          "en": "fly - flew (We flew from New York to Mexico City.)",
+          "tr": "New York'tan Mexico City'e uçtuk."
+        },
+        {
+          "en": "have - had (She had such a good time.)",
+          "tr": "İyi zaman geçirdi."
+        },
+        {
+          "en": "know - knew (We knew each other well in college.)",
+          "tr": "Üniversitedeyken hepimiz birbirimizi iyi tanırdık."
+        },
+        {
+          "en": "read - read (I read that book last year.)",
+          "tr": "O kitabı geçen sene okudum."
+        },
+        {
+          "en": "sing - sang (Her sister sang a beautiful song at the party.)",
+          "tr": "Kız kardeşim partide güzel bir şarkı söyledi."
+        },
+        {
+          "en": "tell - told (He told me a funny story.)",
+          "tr": "Bana komik bir hikaye anlattı."
+        },
+        {
+          "en": "wake - woke (When she woke up, it was already 1 pm!)",
+          "tr": "Uyandığında saat 13.00 olmuştu!"
+        },
+        {
+          "en": "write - wrote (I wrote him an e-mail...)",
+          "tr": "Ona bir e-mail yazdım..."
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b2"
+  },
+  "tense_id": "T006",
+  "name_en": "Past Continuous Tense",
+  "name_tr": "Sürekli Geçmiş Zaman",
+  "section_title": "2.3 Past Continuous Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Genellikle geçmişte belirli bir zamanda devam eden (gerçekleşen) eylemler ve durumlar hakkında konuşmak için past continuous tense kullanırız.",
+      "examples": [
+        {
+          "en": "A:Where was Jenna last night? B:I'm not sure. I think she was visiting her family.",
+          "tr": "A:Jenna dün gece neredeydi? B:Emin değilim, sanırım ailesini ziyaret ediyordu."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Geçmişte bir olay diğerinden daha önemli olduğunda, arka plan olayı için past continuous tense, ana olay için ise past simple tense kullanabiliriz. While ve when yapılarını kullanırız.",
+      "examples": [
+        {
+          "en": "Lisa was cycling to school when she saw the accident.",
+          "tr": "Lisa okula bisikletle giderken kazayı gördü."
+        },
+        {
+          "en": "What were you thinking about when you won the race?",
+          "tr": "Yarışı kazandığınızda ne düşünüyordunuz?"
+        },
+        {
+          "en": "While I was studying, the lights went out.",
+          "tr": "Ben ders çalışırken ışıklar gitti."
+        },
+        {
+          "en": "While I was reading a book, he was watching Tv.",
+          "tr": "Ben kitap okurken o televizyon izliyordu."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Bir olayın nedenini veya bağlamını belirtmek için past continuos tense kullanırız.",
+      "examples": [
+        {
+          "en": "A:I can't believe you met Fran and Dave in Portugal. B:It was funny. They were staying in the hotel next to ours.",
+          "tr": "Komikti. Bizim otelin yanındaki otelde kalıyorlardı. (Onlarla tanışmanın sebebini/bağlamını açıklayarak)"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Geçmişte tekrarlanan arka plan olaylarından bahsetmek için past continuous tense'i kullanabiliriz. Bu, durumun geçici veya değişime tabi olduğunu ima edebilir.",
+      "examples": [
+        {
+          "en": "She was feeding her neighbours' cat every morning while they were on holiday. Then one morning, it was gone.",
+          "tr": "Onlar tatildeyken her sabah komşularının kedisini besliyordu. Sonra bir sabah kedi gitmişti."
+        },
+        {
+          "en": "The neighbours were making so much noise, night after night. We had to complain eventually.",
+          "tr": "Komşular gece be gece çok gürültü yapıyorlardı. Sonunda şikayet etmek zorunda kaldık."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Bazen belirli bir geçmiş zaman dilimini ifade etmek için past continuous tense kullanırız. Bu genellikle olayın belirli bir zaman dilimi boyunca devam ettiğini vurgular.",
+      "examples": [
+        {
+          "en": "We were cooking all morning because we had 15 people coming for lunch.",
+          "tr": "Öğle yemeğine 15 kişi geleceği için sabahtan beri yemek pişiriyorduk."
+        },
+        {
+          "en": "Lots of us were working at the office on Saturday because we had to finish the project by Monday.",
+          "tr": "Çoğumuz cumartesi günü ofiste çalışıyorduk çünkü projeyi pazartesi gününe kadar bitirmemiz gerekiyordu."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Always (Her zaman), contantly(sürekli), forever (sonsuza kadar) gibi zarflar, tekrarlanan, planlanmamış veya istenmeyen olaylardan bahsederken past continuous tense ile birlikte kullanılır.",
+      "examples": [
+        {
+          "en": "We were always spending so much time in traffic.",
+          "tr": "Trafikte çok fazla zaman geçiriyorduk."
+        },
+        {
+          "en": "My boss was constantly phoning me in my last job. I hated it.",
+          "tr": "Son işimde patronum sürekli beni arıyordu. Bundan nefret ediyordum."
+        },
+        {
+          "en": "She was forever losing her keys.",
+          "tr": "Anahtarlarını sürekli kaybediyordu."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.3.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (He/she/it) + was + verb-ing",
+        "Subject (I/You/we/they) + were + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "This time yesterday, I was hanging out with my friends.",
+          "tr": "Dün bu zamanlar, arkadaşlarımla takılıyordum."
+        },
+        {
+          "en": "We were watching a movie when the doorbell rang.",
+          "tr": "Kapı zili çaldığında film izliyorduk."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.3.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (He/she/it) + was + not + verb-ing",
+        "Subject (I/You/we/they) + were + not + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "I wasn't hanging out with my friends.",
+          "tr": "Arkadaşlarımla takılmıyordum."
+        },
+        {
+          "en": "We weren't watching a movie when the doorbell rang.",
+          "tr": "Kapı zili çaldığında film izlemiyorduk."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.3.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Was + Subject (He/she/it) + verb-ing",
+        "Were + Subject (I/You/we/they) + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "Was she hanging out with her friends?",
+          "tr": "Arkadaşlarıyla takılıyor muydu?"
+        },
+        {
+          "en": "Were you watching a movie when the doorbell rang?",
+          "tr": "Kapı zili çaldığında film izliyor muydun?"
+        }
+      ]
+    },
+    {
+      "type": "adverb_block",
+      "title": "2.3.4 Used Adverbs (Kullanılan Zarflar)",
+      "items": [
+        "When (-Dığında)",
+        "While (İken)",
+        "This time last week (Geçen hafta bu zamanlar)",
+        "yesterday at 7 (Dün 7'de)"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b3"
+  },
+  "tense_id": "T007",
+  "name_en": "Past Perfect Tense",
+  "name_tr": "Miş'li Geçmiş Zaman",
+  "section_title": "2.4 Past Perfect Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Geçmiş zaman, geçmişte belirli bir noktaya kadar olan zamanı ifade eder (o zamana kadar olan zaman).",
+      "examples": [
+        {
+          "en": "I'd seen all of Elvis Presley's movies by the time I was 20!",
+          "tr": "20 yaşıma geldiğimde Elvis Presley'in tüm filmlerini izlemiştim!"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Bildirilen cümlelerde, bildirme fiilinin geçmişte olduğu durumlarda genellikle past perfect kipini kullanırız.",
+      "examples": [
+        {
+          "en": "The policeman said Mr Hammond had driven through a red light.",
+          "tr": "Polis memuru, Bay Hammond'un kırmızı ışıkta geçtiğini söyledi."
+        },
+        {
+          "en": "No one told me that the shop had closed.",
+          "tr": "Bana dükkanın kapandığını kimse söylemedi."
+        },
+        {
+          "en": "I phoned Katie and she said the kids had had a day off school so she'd taken them ice skating.",
+          "tr": "Katie'yi aradım ve çocukların okullarının tatil olduğunu, bu yüzden onları buz patenine götürdüğünü söyledi."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Değişen durumlardan bahsederken genellikle geçmiş zaman kipini kullanırız. Konuşurken 'had' genellikle vurgulanır.",
+      "examples": [
+        {
+          "en": "A:Are you going anywhere today? B:I had planned to go to the beach but look at the rain!",
+          "tr": "Plaja gitmeyi planlamıştım ama yağmura bak! (Şimdi fikrimi değiştirdim)"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Eğer bir cümlede farklı bir geçmiş hayal ettiğimizde geçmiş zaman kipini kullanmalıyız.",
+      "examples": [
+        {
+          "en": "I would have helped to paint the house if you'd asked me.",
+          "tr": "Eğer bana sorsaydın evin boyanmasına yardım ederdim. (Bana sormadın.)"
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.4.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + Had + Verb3"
+      ],
+      "examples": [
+        {
+          "en": "I arrived at my friend's house but they had started playing without me.",
+          "tr": "Arkadaşımın evine vardım ama onlar bensiz oynamaya başlamışlardı."
+        },
+        {
+          "en": "She didn't want to go to the cinema because she had already seen the movie.",
+          "tr": "Sinemaya gitmek istemedi çünkü filmi daha önce izlemişti."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.4.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + Had + Not + Verb3"
+      ],
+      "examples": [
+        {
+          "en": "They hadn't started playing without me.",
+          "tr": "Ben olmadan oynamaya başlamamışlardı."
+        },
+        {
+          "en": "She hadn't seen the movie.",
+          "tr": "O filmi izlememişti."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.4.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Had + Subject (I/You/We/They/He/she/it) + Verb3"
+      ],
+      "examples": [
+        {
+          "en": "Had they started playing without you?",
+          "tr": "Sensiz oynamaya başlamışlar mıydı?"
+        },
+        {
+          "en": "Had she seen the movie?",
+          "tr": "Filmi izlemiş miydi?"
+        }
+      ]
+    },
+    {
+      "type": "adverb_block",
+      "title": "2.4.4 Used Adverbs (Kullanılan Zarflar)",
+      "items": [
+        "Just (Yalnız/sadece/biraz önce)",
+        "Already (Zaten/çoktan)",
+        "Never (Asla)",
+        "Ever (Şimdiye kadar)"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b4"
+  },
+  "tense_id": "T008",
+  "name_en": "Past Perfect Continuous Tense",
+  "name_tr": "Geçmişte Süregelen Zaman",
+  "section_title": "2.5 Past Perfect Continuous Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Geçmişte belirli bir zamandan önce başlamış ve o zamana kadar hala devam eden eylemlerden veya olaylardan bahsetmek için past perfect continuous kullanırız.",
+      "examples": [
+        {
+          "en": "B:Well, I'd been reading an amazing book... I was just halfway through the book when I decided I had to go travelling...",
+          "tr": "Harika bir kitap okuyordum... Kitabın tam ortasındaydım ki seyahate çıkmam gerektiğine karar verdim..."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Geçmişte belirli bir zamandan önce başlamış ve bitmiş, ancak etkileri veya sonuçları geçmişteki belirli bir noktada hala önemli olan olaylardan bahsetmek için past perfect continuous'u kullanabiliriz.",
+      "examples": [
+        {
+          "en": "It had been raining and the ground was still wet.",
+          "tr": "Yağmur yağıyordu ve yerler hâlâ ıslaktı."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.5.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + had been + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "I was very tired because I had been working all day.",
+          "tr": "Bütün gün çalıştığım için çok yorgundum."
+        },
+        {
+          "en": "The ground was wet. It had been raining.",
+          "tr": "Zemin ıslaktı. Yağmur yağıyordu."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.5.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + had not been + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "I hadn't been working all day.",
+          "tr": "Bütün gün çalışmıyordum."
+        },
+        {
+          "en": "The ground wasn't wet. It hadn't been raining.",
+          "tr": "Zemin ıslak değildi. Yağmur yağmıyordu."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "2.5.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Had + subject (I/You/We/They/He/she/it) + been + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "You were tired. Had you been working all day?",
+          "tr": "Yorgundun. Bütün gün mü çalışıyordun?"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b5"
+  },
+  "tense_id": "T009",
+  "name_en": "Future Simple Tense (Going to)",
+  "name_tr": "Gelecek Zaman (Planlı)",
+  "section_title": "3.1 Future Simple Tense (Going to)",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Gelecek plan ve niyetlerimizden bahsederken 'be going to' kullanırız. Genellikle gelecek planlarıyla ilgili karar çoktan verilmiştir.",
+      "examples": [
+        {
+          "en": "She's going to be a professional dancer when she grows up.",
+          "tr": "Büyüdüğünde profesyonel dansçı olacak."
+        },
+        {
+          "en": "I'm going to look for a new place to live next month.",
+          "tr": "Gelecek ay yeni bir yer bakmaya başlayacağım."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "We use be going to to predict something that we think is certain to happen or which we have evidence for now.",
+      "examples": [
+        {
+          "en": "It's going to snow again soon. (The speaker can probably see dark snow clouds.)",
+          "tr": "Yakında tekrar kar yağacak. (Konuşmacı muhtemelen koyu kar bulutlarını görebiliyordur.)"
+        },
+        {
+          "en": "Look out! He's going to break that glass.",
+          "tr": "Dikkat! Şu camı kıracak."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Emir verirken veya bir şeyin zorunlu olduğunu belirtirken be going to kullanırız.",
+      "examples": [
+        {
+          "en": "You're going to pick up all of those toys right now. This room is a mess!",
+          "tr": "Şimdi bütün oyuncakları toplayacaksın. Bu oda çok dağınık!"
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Özellikle konuşmalarda ve şarkı sözlerinde, resmi olmayan bağlamlarda 'going to' yerine 'gonna' kullanırız.",
+      "examples": [
+        {
+          "en": "Are you gonna try and get stuff sorted as soon as you can then?",
+          "tr": "Peki, işleri olabildiğince çabuk halletmeye mi çalışacaksın?"
+        },
+        {
+          "en": "One day I'm gonna be a star.",
+          "tr": "Bir gün yıldız olacağım."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.1.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I) + am + going to + verb",
+        "Subject (He/she/it) + is + going to + verb",
+        "Subject (You/we/they) + are + going to + verb"
+      ],
+      "examples": [
+        {
+          "en": "My jacket is stained. I am going to wash my jacket.",
+          "tr": "Ceketim lekelendi. Ceketimi yıkayacağım."
+        },
+        {
+          "en": "She is going to study tonight.",
+          "tr": "Bu gece ders çalışacak."
+        },
+        {
+          "en": "It is going to rain though.",
+          "tr": "Yine de yağmur yağacak."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.1.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I) + am + not going to + verb",
+        "Subject (He/she/it) + is + not going to + verb",
+        "Subject (You/we/they) + are + not going to + verb"
+      ],
+      "examples": [
+        {
+          "en": "I am not going to wash my jacket.",
+          "tr": "Ceketimi yıkamayacağım."
+        },
+        {
+          "en": "She is not going to study tonight.",
+          "tr": "Bu gece ders çalışmayacak."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.1.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Am + Subject (I) + going to + verb",
+        "Is + Subject (He/she/it) + going to + verb",
+        "Are + Subject (You/we/they) + going to + verb"
+      ],
+      "examples": [
+        {
+          "en": "Are you going to wash your jacket?",
+          "tr": "Ceketini yıkayacak mısın?"
+        },
+        {
+          "en": "Is she going to study tonight?",
+          "tr": "O bu gece çalışacak mı?"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b6"
+  },
+  "tense_id": "T010",
+  "name_en": "Future Simple Tense (Will)",
+  "name_tr": "Gelecek Zaman (Will)",
+  "section_title": "3.2 Future Simple Tense (Will)",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Gelecekle ilgili tahminlerde bulunmak ve gerçekleri belirtmek için will kullanırız.",
+      "examples": [
+        {
+          "en": "There will be strong winds tomorrow in the south of the country.",
+          "tr": "Yarın ülkenin güneyinde kuvvetli rüzgar esecek."
+        },
+        {
+          "en": "The year 2025 will be the four-hundredth anniversary of the founding of the university.",
+          "tr": "2025 yılı üniversitemizin kuruluşunun 400. yılı olacak."
+        },
+        {
+          "en": "We shall need an extra bedroom when the new baby arrives.",
+          "tr": "Yeni bebek geldiğinde fazladan bir yatak odasına ihtiyacımız olacak."
+        }
+      ]
+    },
+    {
+      "type": "usage_block",
+      "description": "Will (genellikle kısa biçimi 'll) kararları duyurmak ve tekliflerde bulunmak için kullanılır.",
+      "examples": [
+        {
+          "en": "A: Which size do you want? B: I'll have large. (decision)",
+          "tr": "A: Hangi boyutu istiyorsunuz? B: Büyük alacağım. (karar)"
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.2.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + will + verb (base form)"
+      ],
+      "examples": [
+        {
+          "en": "Can somebody please close the door? -Oh, I will close the door.",
+          "tr": "Lütfen birisi kapıyı kapatabilir mi? -Oh, Kapıyı kapatacağım."
+        },
+        {
+          "en": "I think it will rain.",
+          "tr": "Bence yağmur yağacak."
+        },
+        {
+          "en": "I hope you will get better.",
+          "tr": "Umarım iyileşirsin."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.2.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + will not (won't) + verb (base form)"
+      ],
+      "examples": [
+        {
+          "en": "I think she won't fail the class.",
+          "tr": "Bence o, sınıfta kalmayacak."
+        },
+        {
+          "en": "I promise I will not tell anyone.",
+          "tr": "Söz veriyorum kimseye söylemeyeceğim."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.2.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "will + Subject (I/You/We/They/He/she/it) + verb (base form)"
+      ],
+      "examples": [
+        {
+          "en": "Will you please turn the volume down?",
+          "tr": "Lütfen sesi kısar mısınız?"
+        },
+        {
+          "en": "Will she call us?",
+          "tr": "Bizi arayacak mı?"
+        }
+      ]
+    },
+    {
+      "type": "adverb_block",
+      "title": "3.2.4 Used Adverbs (Kullanılan Zarflar)",
+      "items": [
+        "Tomorrow (Yarın)",
+        "Next year/day/month (Gelecek yıl/gün/ay)",
+        "Soon (Yakında)",
+        "in 2050 (2050 de)",
+        "5 days later (5 gün sonra)"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b7"
+  },
+  "tense_id": "T011",
+  "name_en": "Future Continuous Tense",
+  "name_tr": "Sürekli Gelecek Zaman",
+  "section_title": "3.3 Future Continuous Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Future continuous kipini, gelecekte belirli bir zamanda devam edecek geçici eylem ve olaylardan bahsetmek için kullanırız.",
+      "examples": [
+        {
+          "en": "This time next week, I'll be taking photographs with my new camera.",
+          "tr": "Gelecek hafta bu zamanlar yeni kameramla fotoğraflar çekiyor olacağım."
+        },
+        {
+          "en": "I'll post your letter for you. I'll be passing a post-box.",
+          "tr": "Mektubunu senin için postaya vereceğim. Bir posta kutusunun önünden geçeceğim."
+        },
+        {
+          "en": "Next week they will be flying to Australia from Saudi Arabia.",
+          "tr": "Önümüzdeki hafta Suudi Arabistan'dan Avustralya'ya uçacaklar."
+        },
+        {
+          "en": "She will not be working on Tuesday.",
+          "tr": "Salı günü çalışmayacak."
+        },
+        {
+          "en": "Unfortunately we won't be attending the wedding.",
+          "tr": "Maalesef düğüne katılamayacağız."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.3.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + will be + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "This time next week, I will be swimming in the sea.",
+          "tr": "Gelecek haftaya bu zamanlar, denizde yüzüyor olacağım."
+        },
+        {
+          "en": "Tomorrow at 7, we will be having dinner.",
+          "tr": "Yarın 7 de akşam yemeği yiyor olacağız."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.3.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + will not (won't) be + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "I won't be studying tomorrow. I need to get some rest.",
+          "tr": "Yarın ders çalışmayacağım, Biraz dinlenmeye ihtiyacım var."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.3.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Will + Subject (I/You/We/They/He/she/it) + be + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "Will you be studying tomorrow?",
+          "tr": "Yarın ders çalışıyor olacak mısın?"
+        }
+      ]
+    },
+    {
+      "type": "adverb_block",
+      "title": "3.3.4 Used Adverbs (Kullanılan Zarflar)",
+      "items": [
+        "Tomorrow (Yarın)",
+        "Next year/day/month (Gelecek yıl/gün/ay)",
+        "This time next week (Gelecek hafta bu zaman)",
+        "Tomorrow at 7 (Yarın 7 de)"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b8"
+  },
+  "tense_id": "T012",
+  "name_en": "Future Perfect Tense",
+  "name_tr": "Gelecek Öncesi Zaman",
+  "section_title": "3.4 Future Perfect Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Gelecekteki bir noktadan geçmişe baktığımızda future perfect tense kullanırız.",
+      "examples": [
+        {
+          "en": "Do you think she'll have seen the doctor by four o'clock?",
+          "tr": "Sence saat dörtte doktora gitmiş olur mu?"
+        },
+        {
+          "en": "Next month my parents will have been together for thirty years.",
+          "tr": "Gelecek ay annemle babamın birlikteliğinin otuzuncu yılı olacak."
+        },
+        {
+          "en": "At the end of this month, they will have been in their house for one year.",
+          "tr": "Bu ayın sonunda evlerinde bir yıllarını doldurmuş olacaklar."
+        },
+        {
+          "en": "Next month I will have worked for the company for six year.",
+          "tr": "Gelecek ay, şirket için çalıştığım 6. yıl olacak."
+        },
+        {
+          "en": "I think they'll have got there by six o'clock.",
+          "tr": "Bence saat altıda oraya varırlar."
+        },
+        {
+          "en": "Won't she have retired by the end of the year?",
+          "tr": "Yıl sonuna kadar emekli olmayacak mı?"
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.4.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + will have + verb3"
+      ],
+      "examples": [
+        {
+          "en": "I will have gone to work by 9 am tomorrow.",
+          "tr": "Yarın sabah saat 9'da işe gitmiş olacağım."
+        },
+        {
+          "en": "By the time we get to the cinema, the movie will have already started.",
+          "tr": "Sinemaya vardığımızda film çoktan başlamış olacak."
+        },
+        {
+          "en": "By the end of this course, he will have studied English for 3 years.",
+          "tr": "Bu kursun sonunda 3 yıl İngilizce öğrenmiş olacak."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.4.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + will not (won't) have + verb3"
+      ],
+      "examples": [
+        {
+          "en": "I won't have finished by tomorrow.",
+          "tr": "Yarına kadar bitiremeyeceğim."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.4.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Will + subject (I/You/We/They/He/she/it) + have + verb3"
+      ],
+      "examples": [
+        {
+          "en": "Will you have finished by tomorrow?",
+          "tr": "Yarına kadar bitirebilecek misin?"
+        }
+      ]
+    },
+    {
+      "type": "adverb_block",
+      "title": "3.4.4 Used Adverbs (Kullanılan Zarflar)",
+      "items": [
+        "By (ile/tarafından)",
+        "By tomorrow (Yarına kadar)",
+        "By the time (zamana kadar)",
+        "By the end of this... (Bunun sonunda...)",
+        "year (Yıl)"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6925f3e7c371e61595b762b9"
+  },
+  "tense_id": "T013",
+  "name_en": "Future Perfect Continuous Tense",
+  "name_tr": "Sürekli Gelecek Öncesi Zaman",
+  "section_title": "3.5 Future Perfect Continuous Tense",
+  "content_flow": [
+    {
+      "type": "usage_block",
+      "description": "Gelecekteki bir noktadan geçmişe baktığımızda ve bir aktivitenin veya olayın uzunluğunu veya süresini vurgulamak istediğimizde future perfect continuous tense kullanırız.",
+      "examples": [
+        {
+          "en": "In September the head teacher will have been teaching at the school for 20 years.",
+          "tr": "Eylül ayında okul müdürü okulda 20. yılımı doldurmuş olacak."
+        },
+        {
+          "en": "In September, she will have been living in France for a year.",
+          "tr": "Eylül ayında Fransa'da yaşamaya başlayalı bir yıl olacak."
+        },
+        {
+          "en": "I will have been studying English for three years by the end of this course.",
+          "tr": "Bu kursun sonunda 3 yıl İngilizce öğrenmiş olacak. (Ödevdeki örnek karışıklığı düzeltildi)"
+        },
+        {
+          "en": "We're late. I think they'll have been waiting for us. We'd better go.",
+          "tr": "Geç kaldık. Bence bizi bekliyorlardır. Gitsek iyi olur."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.5.1 Positive Sentences And Structure (Olumlu Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + will have been + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "Çilem will have been living in Turkey for 4 months by December.",
+          "tr": "Çilem, Aralık ayı itibarıyla 4 aydır Türkiye'de yaşıyor olacak."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.5.2 Negative Sentences And Structure (Olumsuz Cümleler Ve Yapı)",
+      "formulas": [
+        "Subject (I/You/We/They/He/she/it) + will not (won't) have been + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "Çilem won't have been living in Turkey for 4 months by December.",
+          "tr": "Çilem, Aralık ayına kadar 4 aydır Türkiye'de yaşamıyor olacak."
+        }
+      ]
+    },
+    {
+      "type": "structure_block",
+      "title": "3.5.3 Question Sentences And Structure (Soru Cümleleri Ve Yapı)",
+      "formulas": [
+        "Will + Subject (I/You/We/They/He/she/it) + have been + verb-ing"
+      ],
+      "examples": [
+        {
+          "en": "Will she have been living in Turkey for 4 months?",
+          "tr": "4 aydır Türkiye'de mi yaşıyor olacak?"
+        }
+      ]
+    }
+  ]
+}]
