@@ -148,26 +148,20 @@ class KayitSayfasi(QDialog):
             QMessageBox.critical(self, "Hata", "Veritabanına bağlanılamadı.")
             return
 
-        # --- KRİTİK DÜZELTME BURASI ---
-        # Önce veritabanında bu kullanıcı var mı diye bakıyoruz.
-        # İpucu: Büyük/küçük harf duyarlılığını kaldırmak istersen (Ahmet = ahmet olsun istersen)
-        # sorguyu regex ile yapabiliriz ama şimdilik birebir eşleşme yapalım.
-
+        # KRİTİK DÜZELTME
         existing_user = col.find_one({"username": username})
 
         if existing_user:
             # Eğer kayıt varsa HATA ver ve işlemi durdur (return)
             QMessageBox.warning(self, "Hata", "Bu kullanıcı adı zaten alınmış! Lütfen başka bir ad seçin.")
             client.close()
-            return  # Burası çok önemli, return demezsen kod aşağı inip kaydeder!
-        # ------------------------------
+            return
 
-        # Eğer yukarıdaki if'e girmediyse, kullanıcı yok demektir. Kaydet.
         try:
             col.insert_one({
                 "username": username,
                 "password": password,
-                "created_at": str(datetime.now())  # Tarih eklemek iyi olur
+                "created_at": str(datetime.now())
             })
             QMessageBox.information(self, "Başarılı", "Kayıt başarıyla tamamlandı!")
             self.close()  # Pencereyi kapat
